@@ -1,4 +1,4 @@
-#!/home/krg/Desktop/flaskYt/.venv/bin/python3
+#!/home/krg/Desktop/flask/flaskYt/.venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
