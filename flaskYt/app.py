@@ -53,6 +53,7 @@ def update(sno):
         db.session.commit()
         return redirect('/')
     todo = Todo.query.filter_by(sno=sno).first()
+    print(todo.title,todo.desc)
     return render_template('update.html',todo=todo)
 
 # @app.route('/show')
